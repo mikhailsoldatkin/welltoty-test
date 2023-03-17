@@ -6,7 +6,7 @@ import openpyxl
 
 cwd = os.getcwd()
 PATH = f"{cwd}\Welltory Test_Python Developer_App Reviews.xlsx"
-OPENAI_TOKEN = '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'
+OPENAI_TOKEN = 'API KEY'
 
 
 def find_max_row_with_values(sheet):
@@ -119,4 +119,4 @@ if __name__ == '__main__':
 
     set_rates_to_excel_file(PATH, data_sorted)
 
-    write_to_csv(data_sorted, 'sorted_reviews.csv')
+    write_to_csv(data_sorted, 'reviews_analyzed.csv')
